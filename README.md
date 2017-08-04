@@ -1,1 +1,3 @@
-# deep-learning-example
+# Simple Deep Learning Example
+
+https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/
