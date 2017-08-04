@@ -68,7 +68,7 @@ matrix derivativesErrorSum(matrix target, matrix out)
 {
     if(target.size() != out.size() || target[0].size() != out[0].size())
     {
-        cerr << "Error Etotal() -- matrix sizes are not equal" << endl;
+        cerr << "Error derivativesErrorSum() -- matrix sizes are not equal" << endl;
         exit(1);
     }
 
@@ -361,7 +361,7 @@ int main()
 
     cout << "Training is completed." << endl << endl;
 
-    // Now we query out network.
+    // Now we query our network.
     for(int i = 0; i <= 7; i++)
     {
         cout << "#Query " << (i + 1) << endl;
